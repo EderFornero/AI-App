@@ -1,6 +1,7 @@
 import { BestBusiness } from "@/components/BestBusiness"
 import { CounterData } from "@/components/CounterData"
 import { FirstBlock } from "@/components/FirstBlock"
+import { Footer } from "@/components/Footer"
 import { Header } from "@/components/Header"
 import { MultipleAI } from "@/components/MultipleAI"
 import { StatisticsAI } from "@/components/StatisticsAI"
@@ -18,6 +19,7 @@ export default function Home() {
       <StatisticsAI />
       <Testimonials />
       <TechAI />
+      <Footer />
     </>
   )
 }
