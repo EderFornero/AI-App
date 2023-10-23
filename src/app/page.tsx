@@ -4,6 +4,8 @@ import { FirstBlock } from "@/components/FirstBlock"
 import { Header } from "@/components/Header"
 import { MultipleAI } from "@/components/MultipleAI"
 import { StatisticsAI } from "@/components/StatisticsAI"
+import { TechAI } from "@/components/TechAI"
+import { Testimonials } from "@/components/Testimonials"
 
 export default function Home() {
   return (
@@ -14,6 +16,8 @@ export default function Home() {
       <BestBusiness />
       <MultipleAI />
       <StatisticsAI />
+      <Testimonials />
+      <TechAI />
     </>
   )
 }
