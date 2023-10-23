@@ -3,6 +3,7 @@ import { CounterData } from "@/components/CounterData"
 import { FirstBlock } from "@/components/FirstBlock"
 import { Header } from "@/components/Header"
 import { MultipleAI } from "@/components/MultipleAI"
+import { StatisticsAI } from "@/components/StatisticsAI"
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <CounterData />
       <BestBusiness />
       <MultipleAI />
+      <StatisticsAI />
     </>
   )
 }
